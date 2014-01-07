@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Context antiJARLocking="true" path="/bookregistration">
+     <Resource
+         name="jdbc/hibernate1"
+         driverClassName="com.mysql.jdbc.Driver"
+         url="jdbc:mysql://localhost:3306/hibernate1"
+         username="root"
+         password="admin"
+         maxActive="100"
+         maxIdle="30"
+         maxWait="10000"
+         auth="Container"
+         type="javax.sql.DataSource"
+         validationQuery="SELECT 1 FROM dual"
+      />
+</Context>
